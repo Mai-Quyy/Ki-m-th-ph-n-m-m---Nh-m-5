@@ -1,0 +1,92 @@
+{
+  "id": "b0ddd2f0-20e1-4074-a746-754a29e4f45c",
+  "version": "2.0",
+  "name": "Az",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "2b0e74e9-2018-4b08-807c-2c95b65dafde",
+    "name": "azten",
+    "commands": [{
+      "id": "1e053783-cce9-498a-a15a-b5177ee21a06",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19845523-7103-4121-8b6d-7739609abbe3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "261738ce-cbf9-4e23-a0a8-88b6f91dccdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnMenu",
+      "targets": [
+        ["css=.btnMenu", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[7]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c46aa61-e4a4-4d70-a9f9-6e655b68c896",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) span",
+      "targets": [
+        ["css=li:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'KIẾN THỨC, KHOA HỌC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16deae8a-fed3-49e6-a47d-830ab260a7d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=SortBy",
+      "targets": [
+        ["id=SortBy", "id"],
+        ["name=SortBy", "name"],
+        ["css=#SortBy", "css:finder"],
+        ["xpath=//select[@id='SortBy']", "xpath:attributes"],
+        ["xpath=//section[@id='collection-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2058b2b-e382-406c-9ac6-3f9632121693",
+      "comment": "",
+      "command": "select",
+      "target": "id=SortBy",
+      "targets": [],
+      "value": "label=Tên A-Z"
+    }, {
+      "id": "fe97acea-41f7-4d5f-80b2-ecfea04a87ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > label > span",
+      "targets": [
+        ["css=li:nth-child(3) > label > span", "css:finder"],
+        ["xpath=//section[@id='collection-wrapper']/div/div/div/div[2]/div/div/div/div/div/ul/li[3]/label/span", "xpath:idRelative"],
+        ["xpath=//li[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Từ 100,000₫ - 200,000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a3aa0ebc-55f9-4351-84c0-bd6c5725c5ed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b0e74e9-2018-4b08-807c-2c95b65dafde"]
+  }],
+  "urls": [],
+  "plugins": []
+}

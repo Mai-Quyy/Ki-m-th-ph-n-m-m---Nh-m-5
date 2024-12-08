@@ -1,0 +1,121 @@
+{
+  "id": "d28de700-b9bf-4337-b4f2-151fcbb2841d",
+  "version": "2.0",
+  "name": "ythich",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "1a63188c-9149-4696-82d6-a3ad8747bf87",
+    "name": "ythich",
+    "commands": [{
+      "id": "a1c6f25d-f0cc-4ed6-ac72-1376e1a2e7a8",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d326739-e05d-43f2-8013-5ea522f64064",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee99eb6b-e218-4ab7-8b45-47a01d55f940",
+      "comment": "",
+      "command": "click",
+      "target": "id=1062054763",
+      "targets": [
+        ["id=1062054763", "id"],
+        ["css=#\\31 062054763", "css:finder"],
+        ["xpath=//img[@alt='Lịch để bàn Thị trấn mèo 2025']", "xpath:img"],
+        ["xpath=//img[@id='1062054763']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-2']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0671d69-7277-44c0-ac60-e57cb2c94ad3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#onAppWishList_btn_add > .fa",
+      "targets": [
+        ["css=#onAppWishList_btn_add > .fa", "css:finder"],
+        ["xpath=//button[@id='onAppWishList_btn_add']/i", "xpath:idRelative"],
+        ["xpath=//div/div/button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67fd5e5-181d-415b-8d8c-8dd93d2e4fa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=1061896912",
+      "targets": [
+        ["id=1061896912", "id"],
+        ["css=#\\31 061896912", "css:finder"],
+        ["xpath=//img[@alt='Lịch treo tường One Piece 2025 (Tặng kèm 01 Poster )']", "xpath:img"],
+        ["xpath=//img[@id='1061896912']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-related-products-1-slider']/div/div/div[3]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b5d7578-7d34-4b33-b26c-b1ab720fcfb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#onAppWishList_btn_add > .fa",
+      "targets": [
+        ["css=#onAppWishList_btn_add > .fa", "css:finder"],
+        ["xpath=//button[@id='onAppWishList_btn_add']/i", "xpath:idRelative"],
+        ["xpath=//div/div/button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1f53f50-9f4f-45a1-8da0-c1de0a611b05",
+      "comment": "",
+      "command": "click",
+      "target": "id=1061896735",
+      "targets": [
+        ["id=1061896735", "id"],
+        ["css=#\\31 061896735", "css:finder"],
+        ["xpath=//img[@alt='Lịch treo tường Thám tử lừng danh Conan 2025 (Tặng Kèm Poster Đính Bên Trong)']", "xpath:img"],
+        ["xpath=//img[@id='1061896735']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-related-products-1-slider']/div/div/div[5]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[5]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5b0505e-3699-4ad9-878b-61714ab28d2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#onAppWishList_btn_add > .fa",
+      "targets": [
+        ["css=#onAppWishList_btn_add > .fa", "css:finder"],
+        ["xpath=//button[@id='onAppWishList_btn_add']/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82112230-6053-4c8f-bbb3-ad686a5317f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ft-content .grid:nth-child(1)",
+      "targets": [
+        ["css=.ft-content .grid:nth-child(1)", "css:finder"],
+        ["xpath=//footer[@id='footer']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//footer/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51b48d87-40a1-49be-b370-57cd3c71681d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a63188c-9149-4696-82d6-a3ad8747bf87"]
+  }],
+  "urls": [],
+  "plugins": []
+}

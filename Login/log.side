@@ -1,0 +1,142 @@
+{
+  "id": "f13fd9e7-de39-45ca-8591-cbdee6907650",
+  "version": "2.0",
+  "name": "log",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "cc243948-3963-4da5-9329-ddb463c42d8d",
+    "name": "Log",
+    "commands": [{
+      "id": "95780d90-3587-4b6d-a907-510128354da3",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3786c566-854d-4242-bd15-57fb0bb1b848",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcd4b5f5-3859-4caf-b684-88e5053fe4bb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng nhập",
+      "targets": [
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=.popup_form_user_btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2010f01-d805-48d8-8c36-7a865651be02",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8122e0-0847-4a10-9a40-f5d48648a37a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": "1231231@gmail.com"
+    }, {
+      "id": "50038cf2-8ef3-4f43-8911-cacdbc728e43",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9719773b-8a73-44b8-960c-54c9e212bfaf",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "123123asd"
+    }, {
+      "id": "f73167be-19cb-44ca-b77f-6a5a3793868b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) > .btn",
+      "targets": [
+        ["css=p:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b461d75a-8c2c-4a17-a1e3-eb0fe4092190",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > a > img",
+      "targets": [
+        ["css=.text-center > a > img", "css:finder"],
+        ["xpath=//img[@alt='Nhà xuất bản Kim Đồng']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5951838e-a7a4-4ae6-955a-af351bf48c0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#home-pro-products-5 h2",
+      "targets": [
+        ["css=#home-pro-products-5 h2", "css:finder"],
+        ["xpath=//section[@id='home-pro-products-5']/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//section[5]/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'MANGA - COMIC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "15d99b8c-2fbb-42f4-97e8-34b1a71159d3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc243948-3963-4da5-9329-ddb463c42d8d"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,321 @@
+{
+  "id": "7df8780d-67d4-4653-a7b1-b4692e646dd4",
+  "version": "2.0",
+  "name": "Dangky",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "4cf4492f-c3fa-47f9-afef-91714301c2dc",
+    "name": "dangky",
+    "commands": [{
+      "id": "cd443513-e5bc-4a77-b51d-a6efe2a63461",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50cee6ac-1ab8-437c-bbe2-17adaf5e0124",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e63c483f-7408-41a4-a1f0-5685e82fccdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-pencil-square-o",
+      "targets": [
+        ["css=.fa-pencil-square-o", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[3]/div/a[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88f7185b-e239-462f-bf68-77ecc4012f0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1637df3e-e74f-44e2-96a0-7674cfe44175",
+      "comment": "",
+      "command": "click",
+      "target": "css=#popup_form_user > .grid",
+      "targets": [
+        ["css=#popup_form_user > .grid", "css:finder"],
+        ["xpath=//div[@id='popup_form_user']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b4133b4-d30e-4853-89c4-51251ff165ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tạo tài khoản",
+      "targets": [
+        ["linkText=Tạo tài khoản", "linkText"],
+        ["css=.btn_register_form", "css:finder"],
+        ["xpath=//a[contains(text(),'Tạo tài khoản')]", "xpath:link"],
+        ["xpath=//div[@id='popup_form_user']/div/div/div/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[10]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tạo tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0de6c6-2efc-4ca1-9a64-645402783496",
+      "comment": "",
+      "command": "click",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=customer[first_name]", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ae830a-4251-4da0-90c5-715c82acba83",
+      "comment": "",
+      "command": "type",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=customer[first_name]", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": "Nguyen van A"
+    }, {
+      "id": "b7a04901-f82d-4650-8855-f7b9f33bdb1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Phone",
+      "targets": [
+        ["id=Phone", "id"],
+        ["name=customer[phone]", "name"],
+        ["css=#Phone", "css:finder"],
+        ["xpath=//input[@id='Phone']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a149532f-b0d2-41a1-abd7-b926cdfa7773",
+      "comment": "",
+      "command": "type",
+      "target": "id=Phone",
+      "targets": [
+        ["id=Phone", "id"],
+        ["name=customer[phone]", "name"],
+        ["css=#Phone", "css:finder"],
+        ["xpath=//input[@id='Phone']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[4]", "xpath:position"]
+      ],
+      "value": "0932123321"
+    }, {
+      "id": "b6b65905-cf38-436e-ac4b-521dc7400666",
+      "comment": "",
+      "command": "click",
+      "target": "css=#create_customer > #Email",
+      "targets": [
+        ["css=#create_customer > #Email", "css:finder"],
+        ["xpath=(//input[@id='Email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec8e0ebf-4af4-4b52-9f00-f3afdbd2cfcd",
+      "comment": "",
+      "command": "type",
+      "target": "css=#create_customer > #Email",
+      "targets": [
+        ["css=#create_customer > #Email", "css:finder"],
+        ["xpath=(//input[@id='Email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[5]", "xpath:position"]
+      ],
+      "value": "123321@gmail.com"
+    }, {
+      "id": "6166e428-adff-4b1d-afdc-77be39b14469",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337575d9-0b55-4d6d-a702-ef5023e89650",
+      "comment": "",
+      "command": "click",
+      "target": "id=gender",
+      "targets": [
+        ["id=gender", "id"],
+        ["css=#gender", "css:finder"],
+        ["xpath=//div[@id='gender']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58914e95-b40e-4161-be8e-6a5204b6b492",
+      "comment": "",
+      "command": "type",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "123123asd"
+    }, {
+      "id": "8e27bf7f-f29d-4a19-a3c0-e5389d7c8af8",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerFormMale1",
+      "targets": [
+        ["id=CustomerFormMale1", "id"],
+        ["name=customer[gender]", "name"],
+        ["css=#CustomerFormMale1", "css:finder"],
+        ["xpath=//input[@id='CustomerFormMale1']", "xpath:attributes"],
+        ["xpath=//div[@id='gender']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "222f6507-412f-413e-9b85-33d64b01bb71",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[birthday]",
+      "targets": [
+        ["name=customer[birthday]", "name"],
+        ["css=#birthday > #birthday", "css:finder"],
+        ["xpath=//input[@id='birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434711c6-e43e-4437-a37d-37f890fba46d",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[birthday]",
+      "targets": [
+        ["name=customer[birthday]", "name"],
+        ["css=#birthday > #birthday", "css:finder"],
+        ["xpath=//input[@id='birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0002-12-11"
+    }, {
+      "id": "aa271571-cd24-41ec-8caa-29978aa26ec4",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[birthday]",
+      "targets": [
+        ["name=customer[birthday]", "name"],
+        ["css=#birthday > #birthday", "css:finder"],
+        ["xpath=//input[@id='birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0020-12-11"
+    }, {
+      "id": "a15c5ed4-aaac-4e10-a1d3-c342c5a26c10",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[birthday]",
+      "targets": [
+        ["name=customer[birthday]", "name"],
+        ["css=#birthday > #birthday", "css:finder"],
+        ["xpath=//input[@id='birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0200-12-11"
+    }, {
+      "id": "92a8c277-45f9-4bb6-be02-eb2dff527873",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[birthday]",
+      "targets": [
+        ["name=customer[birthday]", "name"],
+        ["css=#birthday > #birthday", "css:finder"],
+        ["xpath=//input[@id='birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2003-12-11"
+    }, {
+      "id": "5c973d1e-b525-4f1d-a41f-a4bef553f082",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[accepts_marketing]",
+      "targets": [
+        ["name=customer[accepts_marketing]", "name"],
+        ["css=#verified_email > input", "css:finder"],
+        ["xpath=//input[@name='customer[accepts_marketing]']", "xpath:attributes"],
+        ["xpath=//div[@id='verified_email']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed2285f-5278-428f-bcf8-9d8f6a3d9fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(14) > .btn",
+      "targets": [
+        ["css=p:nth-child(14) > .btn", "css:finder"],
+        ["xpath=//input[@value='Đăng ký']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "549a32a1-89fd-4a20-a02a-e33c3bcff66a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large--four-twelfths > .hd-logo img",
+      "targets": [
+        ["css=.large--four-twelfths > .hd-logo img", "css:finder"],
+        ["xpath=//img[@alt='Nhà xuất bản Kim Đồng']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aafa5c2b-46ae-4a08-9c7d-c7df7b28ed5c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4cf4492f-c3fa-47f9-afef-91714301c2dc"]
+  }],
+  "urls": [],
+  "plugins": []
+}

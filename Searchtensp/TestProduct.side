@@ -1,0 +1,145 @@
+{
+  "id": "8494fde5-048f-448e-87bc-b664c4635f40",
+  "version": "2.0",
+  "name": "TestProduct",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "721c639c-a43b-4259-99f6-cad9b78333c9",
+    "name": "Product",
+    "commands": [{
+      "id": "c09aadcb-4979-43e0-a560-dd7dea007b9f",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "393039b2-2066-4752-ac8f-f67270aa70b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52a1f876-5a51-47d5-a326-ead17395164b",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b65305f-e61b-4ab6-bd8d-3b0dee6fffa3",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "conan"
+    }, {
+      "id": "b07be431-d9d6-4796-a807-1e444692eff8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1130a380-fd8c-45b5-98de-4d57dd2d78d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=1057370946",
+      "targets": [
+        ["id=1057370946", "id"],
+        ["css=#\\31 057370946", "css:finder"],
+        ["xpath=//img[@alt='Thám tử lừng danh Conan - Tập 19']", "xpath:img"],
+        ["xpath=//img[@id='1057370946']", "xpath:attributes"],
+        ["xpath=//div[@id='search-wrapper']/div[2]/div[19]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[19]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7b5d7aa-799b-4b4d-8288-e24e980b5d56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-qty__adjust--plus > .icon",
+      "targets": [
+        ["css=.js-qty__adjust--plus > .icon", "css:finder"],
+        ["xpath=//form[@id='AddToCartForm']/div[2]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8409c88a-2db6-44bc-aea2-3711687f72df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-qty__adjust--plus > .icon",
+      "targets": [
+        ["css=.js-qty__adjust--plus > .icon", "css:finder"],
+        ["xpath=//form[@id='AddToCartForm']/div[2]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efcc0390-d79e-46b4-b846-0d77ccbb71eb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.js-qty__adjust--plus > .icon",
+      "targets": [
+        ["css=.js-qty__adjust--plus > .icon", "css:finder"],
+        ["xpath=//form[@id='AddToCartForm']/div[2]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a77b09d-e25f-4396-98c9-26b7e1821aa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=protab0",
+      "targets": [
+        ["id=protab0", "id"],
+        ["css=#protab0", "css:finder"],
+        ["xpath=//div[@id='protab0']", "xpath:attributes"],
+        ["xpath=//section[@id='product-wrapper']/div/div/div/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "685a1ac8-d69a-4a91-8d7e-70ebb760f313",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#protab0 > p:nth-child(3)",
+      "targets": [
+        ["css=#protab0 > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='protab0']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": "Gosho Aoyama\\nXin chào, tôi là Aoyama đây!!\\nĐể đáp ứng sự mong đợi của các bạn, hôm nay chúng ta sẽ nói toàn chuyện về Osaka thôi nhé!\\nConan cùng các bạn đã tham quan và ăn rất nhiều món ngon ở Osaka…\\nChẹp chẹp, cứ nhắc đến là tôi lại thèm được đến đó để lấy tin quá (Hic hic…).\\nBiết bao nhiêu là món, nào là mì Udon, xiên bạch tuộc nướng Takoyaki, bánh xèo\\nOkonomiyaki… Rồi cả bánh bao nhân thịt Horai, Tonpeiyaki (gần giống Okonomiyaki) và cơm cà-ri của nhà hàng Jiyuken nữa chứ! Quên mất, thiếu mất cơm trứng ốp của nhà hàng Meijiken và chè của Meoto Zenzai rồi…"
+    }]
+  }],
+  "suites": [{
+    "id": "86502266-8777-4d7f-a3f5-8f361c12085c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

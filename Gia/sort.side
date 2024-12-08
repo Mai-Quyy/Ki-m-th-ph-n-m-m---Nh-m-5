@@ -1,0 +1,116 @@
+{
+  "id": "6617b2dd-47cc-4d1c-9fb3-0722704aa103",
+  "version": "2.0",
+  "name": "sort",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "1c4836a4-1f4d-442f-a1a1-3e4832712e51",
+    "name": "banchay",
+    "commands": [{
+      "id": "a18a6217-9ce1-448c-a6d9-974494f308a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a479b2b-bbe0-465b-ba72-f680f8fcf0e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa24df39-c7f4-435f-b57c-49288ef46c51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-bars:nth-child(1)",
+      "targets": [
+        ["css=.fa-bars:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e66fae28-edb6-4e1c-a19a-4639ac6e1b7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars:nth-child(1)",
+      "targets": [
+        ["css=.fa-bars:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf95d01-bfd5-4c26-aea6-33136f2c2ce6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-bars:nth-child(1)",
+      "targets": [
+        ["css=.fa-bars:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3191e61-6703-444a-ba8f-739bff1fcf98",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span",
+      "targets": [
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='megamenu-wrapper']/div/div/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'LỊCH SỬ, TRUYỀN THỐNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bf00b6-ca3a-47f4-86ae-ca86a748ea82",
+      "comment": "",
+      "command": "click",
+      "target": "id=SortBy",
+      "targets": [
+        ["id=SortBy", "id"],
+        ["name=SortBy", "name"],
+        ["css=#SortBy", "css:finder"],
+        ["xpath=//select[@id='SortBy']", "xpath:attributes"],
+        ["xpath=//section[@id='collection-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23896b35-3780-42b8-ba6b-935663febe82",
+      "comment": "",
+      "command": "select",
+      "target": "id=SortBy",
+      "targets": [],
+      "value": "label=Bán chạy nhất"
+    }, {
+      "id": "0e80bd83-ca55-4f1f-b75c-4ed4b559534c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=- Nhà trẻ, Mẫu giáo (0-5 tuổi)",
+      "targets": [
+        ["linkText=- Nhà trẻ, Mẫu giáo (0-5 tuổi)", "linkText"],
+        ["css=.no-bullets:nth-child(1) > li:nth-child(11) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'- Nhà trẻ, Mẫu giáo (0-5 tuổi)')]", "xpath:link"],
+        ["xpath=//section[@id='collection-wrapper']/div/div/div/div[2]/div/div/div/div/div/ul/li[11]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/nha-tre-mau-giao-0-6')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/ul/li[11]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'- Nhà trẻ, Mẫu giáo (0-5 tuổi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2d93ede6-feab-4901-b57e-fddb4776bdab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1c4836a4-1f4d-442f-a1a1-3e4832712e51"]
+  }],
+  "urls": [],
+  "plugins": []
+}
